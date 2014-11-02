@@ -137,9 +137,25 @@ BORDERS #2a323d
 
 
 /* Setup text colors */
-#chat .msg {
+#chat .message {
   color: #fefefe;
 }
+
+#chat .message.self .text {
+  color: #99a2b4;
+}
+
+#chat .error,
+#chat .error .from,
+#chat .highlight,
+#chat .highlight .from {
+  color: #f92772;
+}
+
+#chat .highlight:not(.self) {
+  font-size: 1.2em;
+}
+
 #chat .msg.quit .time,
 #chat .msg.quit .from button,
 #chat .msg.quit .type {
@@ -152,8 +168,4 @@ BORDERS #2a323d
   color: #84ce88 !important;
 }
 
-
-#chat .self .text {
-  color: #99a2b4;
-}
 
