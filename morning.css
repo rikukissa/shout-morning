@@ -94,6 +94,10 @@ BORDERS #2a323d
   color: #fefefe !important;
 }
 
+#chat a {
+  color: #428bca;
+}
+
 #chat button:hover {
   opacity: 1;
 }
