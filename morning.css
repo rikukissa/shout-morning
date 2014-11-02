@@ -46,7 +46,8 @@ BORDERS #2a323d
 }
 
 #chat .search::-webkit-input-placeholder {
-   color: #1a1e24;
+   color: #99a2b4;
+   opacity: 0.5;
 }
 
 /* Borders */
@@ -121,14 +122,12 @@ BORDERS #2a323d
 
 #form #nick {
   display: none;
-  /*border-radius: 0;
-  font-size: inherit;
-  font-weight: inherit;
-  font-family: inherit;
-  background-color: #232933;
-  color: #99a2b4;*/
 }
 
+
+#chat .header {
+  color: #99a2b4;
+}
 /* Hide unnecessary buttons */
 #windows .header .button,
 #form #submit {
@@ -160,6 +159,13 @@ BORDERS #2a323d
 #chat .msg.quit .from button,
 #chat .msg.quit .type {
   color: #222 !important;
+}
+
+#chat .msg.topic {
+  color: #fefefe;
+}
+#chat .msg .type {
+  margin-right: 0.5em;
 }
 
 #chat .msg.join .time,
