@@ -13,6 +13,7 @@ INPUT BACKGROUND #2e3642
 PRIMARY #fefefe
 SECONDARY #99a2b4
 BORDERS #2a323d
+QUIT #d0907d
 */
 
 #windows .chan, #windows .window {
@@ -136,11 +137,14 @@ BORDERS #2a323d
 
 
 /* Setup text colors */
+#chat .msg {
+  color: #f3f3f3;
+}
 #chat .message {
   color: #fefefe;
 }
 
-#chat .message.self .text {
+#chat .self .text {
   color: #99a2b4;
 }
 
@@ -158,7 +162,7 @@ BORDERS #2a323d
 #chat .msg.quit .time,
 #chat .msg.quit .from button,
 #chat .msg.quit .type {
-  color: #222 !important;
+  color: #d0907d !important;
 }
 
 #chat .msg.topic {
