@@ -1,0 +1,155 @@
+/*
+Darker theme for Shout.
+Has a bit more eye-friendly color scheme and hides some IMO unnecessary features such as
+"Leave" and "Submit" buttons.
+
+Installation instructions can be found here
+http://shout-irc.com/docs/server/configuration.html#theme
+*/
+
+/*
+BACKGROUND #333c4a
+INPUT BACKGROUND #2e3642
+PRIMARY #fefefe
+SECONDARY #99a2b4
+BORDERS #2a323d
+*/
+
+#windows .chan, #windows .window {
+  background: #333c4a;
+}
+
+#main #chat,
+#main #form,
+#form .input,
+#chat,
+#windows .header {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 13px;
+}
+
+#settings, #sign-in {
+  color: #cccccc;
+}
+
+#chat .sidebar {
+  background: #333c4a;
+}
+
+#chat .count {
+  background-color: #2e3642;
+}
+
+#chat .search {
+  color: #cccccc;
+  padding: 15px 16px;
+}
+
+#chat .search::-webkit-input-placeholder {
+   color: #1a1e24;
+}
+
+/* Borders */
+#chat .from, #windows .header,
+#chat .user-mode:before,
+#chat .sidebar {
+  border-color: #2a323d;
+}
+
+
+/* Attach chat to window borders */
+#windows .window:before, #windows .chan:before {
+  display: none;
+}
+
+#footer {
+  left: 0;
+  bottom: 0;
+  width: 220px;
+}
+
+#main {
+  top: 0;
+  bottom: 0;
+  border-radius: 0;
+}
+
+#chat .chat, #chat .sidebar {
+  top: 48px;
+}
+
+/* User list */
+#chat .user-mode {
+  color: #fefefe;
+}
+
+/* Nicknames */
+#chat.no-colors .from button,
+#chat.no-colors .sidebar button {
+  color: #b0bacf !important;
+}
+
+#chat.no-colors .from button:hover,
+#chat.no-colors .sidebar button:hover {
+  color: #fefefe !important;
+}
+
+#chat button:hover {
+  opacity: 1;
+}
+
+/* Message form */
+#form {
+  background: #2a323d;
+  border-color: #242a33;
+}
+
+#form .input {
+  margin-right: 0;
+}
+
+#form #input {
+  background-color: #2e3642;
+  border-color: #242a33;
+  color: #cccccc;
+  padding-left: 1em !important;
+}
+
+#form #nick {
+  display: none;
+  /*border-radius: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  background-color: #232933;
+  color: #99a2b4;*/
+}
+
+/* Hide unnecessary buttons */
+#windows .header .button,
+#form #submit {
+  display: none;
+}
+
+
+/* Setup text colors */
+#chat .msg {
+  color: #fefefe;
+}
+#chat .msg.quit .time,
+#chat .msg.quit .from button,
+#chat .msg.quit .type {
+  color: #222 !important;
+}
+
+#chat .msg.join .time,
+#chat .msg.join .from button,
+#chat .msg.join .type {
+  color: #84ce88 !important;
+}
+
+
+#chat .self .text {
+  color: #99a2b4;
+}
+
