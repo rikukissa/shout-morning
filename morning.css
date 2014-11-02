@@ -173,5 +173,17 @@ BORDERS #2a323d
 #chat .msg.join .type {
   color: #84ce88 !important;
 }
+/* Embeds */
+#chat .toggle-content,
+#chat .toggle-button {
+  background: #242a33;
+  color: #f3f3f3;
+}
+#chat .toggle-content img {
+  float: left;
+  margin-right: 0.5em;
+}
 
-
+#chat .toggle-content .body {
+  color: #99a2b4;
+}
