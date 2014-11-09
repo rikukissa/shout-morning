@@ -1,0 +1,25 @@
+{
+  "name": "morning.css",
+  "version": "0.1.0",
+  "description": "Darker theme for Shout",
+  "main": "morning.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rikukissa/shout-morning.git"
+  },
+  "keywords": [
+    "css",
+    "theme",
+    "irc",
+    "shout"
+  ],
+  "author": "Riku Rouvila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rikukissa/shout-morning/issues"
+  },
+  "homepage": "https://github.com/rikukissa/shout-morning"
+}
