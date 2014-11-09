@@ -1,6 +1,6 @@
 # Morning
 
-![Screenshot](https://raw.githubusercontent.com/rikukissa/shout-morning/master/_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/rikukissa/shout-morning/master/screenshot.png)
 Darker theme for Shout. Has a bit more eye-friendly color scheme and hides some IMO unnecessary features such as "Leave" and "Submit" buttons.
 
 # License
